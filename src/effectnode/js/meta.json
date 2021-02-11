@@ -43,19 +43,19 @@
 					"_id": "_12194270",
 					"name": "fog",
 					"type": "color",
-					"value": "#a79a9a"
+					"value": "#edeffd"
 				},
 				{
 					"_id": "_20289918",
 					"name": "bg",
 					"type": "color",
-					"value": "#14dcff"
+					"value": "#6c46f6"
 				},
 				{
 					"_id": "_38494286",
 					"name": "amb",
 					"type": "color",
-					"value": "#bd9393"
+					"value": "#622d2d"
 				}
 			],
 			"inputs": [
@@ -89,7 +89,7 @@
 					"_id": "_41112770",
 					"name": "tintColor",
 					"type": "color",
-					"value": "#00ff91"
+					"value": "#d4ff00"
 				}
 			],
 			"inputs": [
