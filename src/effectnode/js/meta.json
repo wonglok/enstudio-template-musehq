@@ -1,0 +1,191 @@
+{
+	"boxes": [
+		{
+			"isFirstUserBox": true,
+			"isProtected": true,
+			"isUserBoxes": true,
+			"_id": "AAA",
+			"x": 463.62059020996094,
+			"y": 639.4498901367188,
+			"displayName": "app",
+			"moduleName": "AAA__ID__app",
+			"fileName": "AAA__ID__app.js",
+			"slug": "app",
+			"inputs": [
+				{
+					"_id": "main_rID_123",
+					"name": "slot0"
+				},
+				{
+					"_id": "mode_rID_456",
+					"name": "slot1"
+				},
+				{
+					"_id": "_69876532",
+					"name": "slot2"
+				}
+			],
+			"userData": []
+		},
+		{
+			"isFirstUserBox": false,
+			"isProtected": false,
+			"isUserBoxes": true,
+			"_id": "_99044968",
+			"x": 357.2347106933594,
+			"y": 453.59619140625,
+			"displayName": "home",
+			"moduleName": "home__ID___99044968",
+			"fileName": "home__ID___99044968.js",
+			"slug": "home",
+			"userData": [
+				{
+					"_id": "_12194270",
+					"name": "fog",
+					"type": "color",
+					"value": "#a79a9a"
+				},
+				{
+					"_id": "_20289918",
+					"name": "bg",
+					"type": "color",
+					"value": "#14dcff"
+				},
+				{
+					"_id": "_38494286",
+					"name": "amb",
+					"type": "color",
+					"value": "#bd9393"
+				}
+			],
+			"inputs": [
+				{
+					"_id": "_24578650",
+					"name": "main"
+				},
+				{
+					"_id": "_9047780",
+					"name": "speed"
+				},
+				{
+					"_id": "_30462174",
+					"name": "color"
+				}
+			]
+		},
+		{
+			"isFirstUserBox": false,
+			"isProtected": false,
+			"isUserBoxes": true,
+			"_id": "_56178918",
+			"x": 105.9671630859375,
+			"y": 231.08480834960938,
+			"displayName": "Cubes",
+			"moduleName": "cubes__ID___56178918",
+			"fileName": "cubes__ID___56178918.js",
+			"slug": "cubes",
+			"userData": [
+				{
+					"_id": "_41112770",
+					"name": "tintColor",
+					"type": "color",
+					"value": "#00ff91"
+				}
+			],
+			"inputs": [
+				{
+					"_id": "_16495573",
+					"name": "main"
+				},
+				{
+					"_id": "_65625060",
+					"name": "speed"
+				},
+				{
+					"_id": "_44681489",
+					"name": "color"
+				}
+			]
+		},
+		{
+			"isFirstUserBox": false,
+			"isProtected": false,
+			"isUserBoxes": true,
+			"_id": "_98265546",
+			"x": 636.87939453125,
+			"y": 148.94155883789062,
+			"displayName": "GroovyLight",
+			"moduleName": "groovylight__ID___98265546",
+			"fileName": "groovylight__ID___98265546.js",
+			"slug": "groovylight",
+			"userData": [],
+			"inputs": [
+				{
+					"_id": "_37194240",
+					"name": "main"
+				},
+				{
+					"_id": "_23281701",
+					"name": "speed"
+				},
+				{
+					"_id": "_65474615",
+					"name": "color"
+				}
+			]
+		},
+		{
+			"isFirstUserBox": false,
+			"isProtected": false,
+			"isUserBoxes": true,
+			"_id": "_40356242",
+			"x": 502.6748046875,
+			"y": 316.5853576660156,
+			"displayName": "FollowPlayer",
+			"moduleName": "followplayer__ID___40356242",
+			"fileName": "followplayer__ID___40356242.js",
+			"slug": "followplayer",
+			"userData": [],
+			"inputs": [
+				{
+					"_id": "_3387046",
+					"name": "main"
+				},
+				{
+					"_id": "_63137207",
+					"name": "speed"
+				},
+				{
+					"_id": "_29305397",
+					"name": "color"
+				}
+			]
+		}
+	],
+	"cables": [
+		{
+			"_id": "_45980999",
+			"outputBoxID": "_98265546",
+			"inputBoxID": "_40356242",
+			"inputSlotID": "_3387046"
+		},
+		{
+			"_id": "_87799288",
+			"outputBoxID": "_40356242",
+			"inputBoxID": "_99044968",
+			"inputSlotID": "_9047780"
+		},
+		{
+			"_id": "_33782103",
+			"outputBoxID": "_56178918",
+			"inputBoxID": "_99044968",
+			"inputSlotID": "_24578650"
+		},
+		{
+			"_id": "_14013909",
+			"outputBoxID": "_99044968",
+			"inputBoxID": "AAA",
+			"inputSlotID": "main_rID_123"
+		}
+	]
+}
