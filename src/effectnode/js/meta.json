@@ -89,7 +89,7 @@
 					"_id": "_41112770",
 					"name": "tintColor",
 					"type": "color",
-					"value": "#824040"
+					"value": "#1f1f1f"
 				}
 			],
 			"inputs": [
@@ -170,22 +170,22 @@
 			"inputSlotID": "_3387046"
 		},
 		{
-			"_id": "_87799288",
-			"outputBoxID": "_40356242",
-			"inputBoxID": "_99044968",
-			"inputSlotID": "_9047780"
-		},
-		{
-			"_id": "_33782103",
-			"outputBoxID": "_56178918",
-			"inputBoxID": "_99044968",
-			"inputSlotID": "_24578650"
-		},
-		{
 			"_id": "_14013909",
 			"outputBoxID": "_99044968",
 			"inputBoxID": "AAA",
 			"inputSlotID": "main_rID_123"
+		},
+		{
+			"_id": "_41394267",
+			"outputBoxID": "_40356242",
+			"inputBoxID": "_99044968",
+			"inputSlotID": "_24578650"
+		},
+		{
+			"_id": "_96074607",
+			"outputBoxID": "_56178918",
+			"inputBoxID": "_99044968",
+			"inputSlotID": "_9047780"
 		}
 	]
 }
