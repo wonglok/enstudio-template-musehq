@@ -5,8 +5,8 @@
 			"isProtected": true,
 			"isUserBoxes": true,
 			"_id": "AAA",
-			"x": 534.2136688232422,
-			"y": 876.529541015625,
+			"x": 463.62059020996094,
+			"y": 639.4498901367188,
 			"displayName": "app",
 			"moduleName": "AAA__ID__app",
 			"fileName": "AAA__ID__app.js",
@@ -32,8 +32,8 @@
 			"isProtected": false,
 			"isUserBoxes": true,
 			"_id": "_99044968",
-			"x": 408.11712646484375,
-			"y": 692.1143798828125,
+			"x": 357.2347106933594,
+			"y": 453.59619140625,
 			"displayName": "home",
 			"moduleName": "home__ID___99044968",
 			"fileName": "home__ID___99044968.js",
@@ -61,41 +61,14 @@
 			"inputs": [
 				{
 					"_id": "_24578650",
-					"name": "react-component"
-				},
-				{
-					"_id": "_9047780",
-					"name": "react-component"
-				},
-				{
-					"_id": "_30462174",
-					"name": "react-component"
-				}
-			]
-		},
-		{
-			"isFirstUserBox": false,
-			"isProtected": false,
-			"isUserBoxes": true,
-			"_id": "_683801",
-			"x": 321.0929870605469,
-			"y": 518.262939453125,
-			"displayName": "r3f-group",
-			"moduleName": "r3fgroup__ID___683801",
-			"fileName": "r3fgroup__ID___683801.js",
-			"slug": "r3fgroup",
-			"userData": [],
-			"inputs": [
-				{
-					"_id": "_24655489",
 					"name": "main"
 				},
 				{
-					"_id": "_76686883",
+					"_id": "_9047780",
 					"name": "speed"
 				},
 				{
-					"_id": "_9565459",
+					"_id": "_30462174",
 					"name": "color"
 				}
 			]
@@ -104,120 +77,33 @@
 			"isFirstUserBox": false,
 			"isProtected": false,
 			"isUserBoxes": true,
-			"_id": "_86603729",
-			"x": 117.82682800292969,
-			"y": 296.54771423339844,
-			"displayName": "basic-line",
-			"moduleName": "basicline__ID___86603729",
-			"fileName": "basicline__ID___86603729.js",
-			"slug": "basicline",
-			"userData": [],
-			"inputs": [
-				{
-					"_id": "_65883822",
-					"name": "0"
-				},
-				{
-					"_id": "_89889891",
-					"name": "1"
-				},
-				{
-					"_id": "_86660678",
-					"name": "2"
-				}
-			]
-		},
-		{
-			"isFirstUserBox": false,
-			"isProtected": false,
-			"isUserBoxes": true,
-			"_id": "_74474033",
-			"x": -29.956039428710938,
-			"y": 7.623046875,
-			"displayName": "noodle-geometry",
-			"moduleName": "noodlegeometry__ID___74474033",
-			"fileName": "noodlegeometry__ID___74474033.js",
-			"slug": "noodlegeometry",
-			"userData": [],
-			"inputs": [
-				{
-					"_id": "_29296421",
-					"name": "0"
-				},
-				{
-					"_id": "_40868087",
-					"name": "1"
-				},
-				{
-					"_id": "_30142932",
-					"name": "2"
-				}
-			]
-		},
-		{
-			"isFirstUserBox": false,
-			"isProtected": false,
-			"isUserBoxes": true,
-			"_id": "_20661972",
-			"x": -122.01319885253906,
-			"y": -383.0604248046875,
-			"displayName": "spec",
-			"moduleName": "spec__ID___20661972",
-			"fileName": "spec__ID___20661972.js",
-			"slug": "spec",
-			"userData": [],
-			"inputs": [
-				{
-					"_id": "_51987231",
-					"name": "0"
-				},
-				{
-					"_id": "_67650236",
-					"name": "1"
-				},
-				{
-					"_id": "_39746860",
-					"name": "2"
-				}
-			]
-		},
-		{
-			"isFirstUserBox": false,
-			"isProtected": false,
-			"isUserBoxes": true,
-			"_id": "_57856776",
-			"x": 305.7669982910156,
-			"y": 9.182373046875,
-			"displayName": "noodle-material",
-			"moduleName": "noodlematerial__ID___57856776",
-			"fileName": "noodlematerial__ID___57856776.js",
-			"slug": "noodlematerial",
+			"_id": "_56178918",
+			"x": 105.9671630859375,
+			"y": 231.08480834960938,
+			"displayName": "Cubes",
+			"moduleName": "cubes__ID___56178918",
+			"fileName": "cubes__ID___56178918.js",
+			"slug": "cubes",
 			"userData": [
 				{
-					"_id": "_14234647",
-					"name": "tailColor",
+					"_id": "_41112770",
+					"name": "tintColor",
 					"type": "color",
-					"value": "#24e5ff"
-				},
-				{
-					"_id": "_73280948",
-					"name": "opacityTail",
-					"type": "number",
-					"value": 100
+					"value": "#1f1f1f"
 				}
 			],
 			"inputs": [
 				{
-					"_id": "_79844919",
-					"name": "0"
+					"_id": "_16495573",
+					"name": "main"
 				},
 				{
-					"_id": "_15778606",
-					"name": "1"
+					"_id": "_65625060",
+					"name": "speed"
 				},
 				{
-					"_id": "_11916971",
-					"name": "2"
+					"_id": "_44681489",
+					"name": "color"
 				}
 			]
 		},
@@ -225,26 +111,26 @@
 			"isFirstUserBox": false,
 			"isProtected": false,
 			"isUserBoxes": true,
-			"_id": "_35142078",
-			"x": 381.8519592285156,
-			"y": -488.1400146484375,
-			"displayName": "CommonShader",
-			"moduleName": "commonshader__ID___35142078",
-			"fileName": "commonshader__ID___35142078.js",
-			"slug": "commonshader",
+			"_id": "_98265546",
+			"x": 636.87939453125,
+			"y": 148.94155883789062,
+			"displayName": "GroovyLight",
+			"moduleName": "groovylight__ID___98265546",
+			"fileName": "groovylight__ID___98265546.js",
+			"slug": "groovylight",
 			"userData": [],
 			"inputs": [
 				{
-					"_id": "_34068092",
-					"name": "0"
+					"_id": "_37194240",
+					"name": "main"
 				},
 				{
-					"_id": "_93681346",
-					"name": "1"
+					"_id": "_23281701",
+					"name": "speed"
 				},
 				{
-					"_id": "_7847913",
-					"name": "2"
+					"_id": "_65474615",
+					"name": "color"
 				}
 			]
 		},
@@ -252,58 +138,37 @@
 			"isFirstUserBox": false,
 			"isProtected": false,
 			"isUserBoxes": true,
-			"_id": "_72487350",
-			"x": 478.26348876953125,
-			"y": 275.2769775390625,
-			"displayName": "ball",
-			"moduleName": "ball__ID___72487350",
-			"fileName": "ball__ID___72487350.js",
-			"slug": "ball",
+			"_id": "_40356242",
+			"x": 502.6748046875,
+			"y": 316.5853576660156,
+			"displayName": "FollowPlayer",
+			"moduleName": "followplayer__ID___40356242",
+			"fileName": "followplayer__ID___40356242.js",
+			"slug": "followplayer",
 			"userData": [],
 			"inputs": [
 				{
-					"_id": "_54618603",
-					"name": "0"
+					"_id": "_3387046",
+					"name": "main"
 				},
 				{
-					"_id": "_67672963",
-					"name": "1"
+					"_id": "_63137207",
+					"name": "speed"
 				},
 				{
-					"_id": "_11051145",
-					"name": "2"
-				}
-			]
-		},
-		{
-			"isFirstUserBox": false,
-			"isProtected": false,
-			"isUserBoxes": true,
-			"_id": "_30804818",
-			"x": 514.5814819335938,
-			"y": -4.4783935546875,
-			"displayName": "noodle-ball-materail",
-			"moduleName": "noodleballmaterail__ID___30804818",
-			"fileName": "noodleballmaterail__ID___30804818.js",
-			"slug": "noodleballmaterail",
-			"userData": [],
-			"inputs": [
-				{
-					"_id": "_88519836",
-					"name": "0"
-				},
-				{
-					"_id": "_14097566",
-					"name": "1"
-				},
-				{
-					"_id": "_81940688",
-					"name": "2"
+					"_id": "_29305397",
+					"name": "color"
 				}
 			]
 		}
 	],
 	"cables": [
+		{
+			"_id": "_45980999",
+			"outputBoxID": "_98265546",
+			"inputBoxID": "_40356242",
+			"inputSlotID": "_3387046"
+		},
 		{
 			"_id": "_14013909",
 			"outputBoxID": "_99044968",
@@ -311,76 +176,16 @@
 			"inputSlotID": "main_rID_123"
 		},
 		{
-			"_id": "_61329923",
-			"outputBoxID": "_683801",
+			"_id": "_41394267",
+			"outputBoxID": "_40356242",
 			"inputBoxID": "_99044968",
 			"inputSlotID": "_24578650"
 		},
 		{
-			"_id": "_91921789",
-			"outputBoxID": "_86603729",
-			"inputBoxID": "_683801",
-			"inputSlotID": "_24655489"
-		},
-		{
-			"_id": "_58481265",
-			"outputBoxID": "_74474033",
-			"inputBoxID": "_86603729",
-			"inputSlotID": "_65883822"
-		},
-		{
-			"_id": "_11025016",
-			"outputBoxID": "_20661972",
-			"inputBoxID": "_74474033",
-			"inputSlotID": "_29296421"
-		},
-		{
-			"_id": "_60165878",
-			"outputBoxID": "_57856776",
-			"inputBoxID": "_86603729",
-			"inputSlotID": "_89889891"
-		},
-		{
-			"_id": "_83501728",
-			"outputBoxID": "_20661972",
-			"inputBoxID": "_57856776",
-			"inputSlotID": "_79844919"
-		},
-		{
-			"_id": "_55356079",
-			"outputBoxID": "_35142078",
-			"inputBoxID": "_57856776",
-			"inputSlotID": "_15778606"
-		},
-		{
-			"_id": "_54563954",
-			"outputBoxID": "_74474033",
-			"inputBoxID": "_72487350",
-			"inputSlotID": "_54618603"
-		},
-		{
-			"_id": "_62605610",
-			"outputBoxID": "_72487350",
-			"inputBoxID": "_683801",
-			"inputSlotID": "_76686883"
-		},
-		{
-			"_id": "_83190002",
-			"outputBoxID": "_30804818",
-			"inputBoxID": "_72487350",
-			"inputSlotID": "_67672963"
-		},
-		{
-			"_id": "_89818178",
-			"outputBoxID": "_35142078",
-			"inputBoxID": "_30804818",
-			"inputSlotID": "_14097566"
-		},
-		{
-			"_id": "_94981906",
-			"outputBoxID": "_20661972",
-			"inputBoxID": "_30804818",
-			"inputSlotID": "_88519836"
+			"_id": "_96074607",
+			"outputBoxID": "_56178918",
+			"inputBoxID": "_99044968",
+			"inputSlotID": "_9047780"
 		}
 	]
 }
