@@ -153,6 +153,15 @@ function MyCore({ mounter }) {
         window.removeEventListener("box-refresh" + box._id, hh);
       };
     };
+
+    let waitFor = (nameOrIDX) => {
+      return new Promise((resolve) => {
+        stream(nameOrIDX, (paylaod) => {
+          resolve(paylaod);
+        });
+      });
+    };
+
     if (BoxGlob[box.moduleName] && BoxGlob[box.moduleName].box) {
       BoxGlob[box.moduleName].box({
         box,
@@ -161,11 +170,9 @@ function MyCore({ mounter }) {
         domElement: mounter,
         pulse,
         stream,
-        log: (v) => {
-          console.log(JSON.stringify(v, null, 4));
-        },
+        waitFor,
         clean,
-        graph: lowdb,
+        lowdb: lowdb,
       });
       onlineMap.set(box._id, true);
     }

@@ -1,46 +1,36 @@
+import { OrbitControls } from "@react-three/drei";
 import React, { useEffect, useState } from "react";
-import { StandardEnvironment, Background, Fog } from "spacesvr";
-import { Color } from "three";
+import { Canvas, useThree } from "react-three-fiber";
+import { Color, sRGBEncoding } from "three";
 
 function EachInput({ relay, idx }) {
   const [compo, setCompo] = useState(<group></group>);
   useEffect(() => {
     return relay.stream(idx, ({ type, Component }) => {
-      if (type === "add") {
-        setCompo(<Component key={`_` + Math.random() * 10000000}></Component>);
+      if (type === "mount") {
+        setCompo(
+          <Component
+            key={`_` + Math.floor(Math.random() * 10000000)}
+          ></Component>
+        );
       }
     });
   });
   return compo;
 }
 
-function InputReceivers({ relay }) {
-  let rotues = relay.box.inputs.map((e, idx) => {
+function InputObject3D({ relay }) {
+  let items = relay.box.inputs.map((e, idx) => {
     return <EachInput key={e._id} idx={idx} relay={relay}></EachInput>;
   });
-  return <group>{rotues}</group>;
+  return <group>{items}</group>;
 }
 
-function EnvColor({ relay }) {
-  const [fogColor, setFogColor] = useState("white");
-  const [bgColor, setBGColor] = useState("white");
-  const [ambinet, setAmbineColor] = useState("white");
+function BgEnv() {
+  let { scene } = useThree();
+  scene.background = new Color("#232323");
 
-  useEffect(() => {
-    return relay.onUserData(({ fog, bg, amb }) => {
-      setFogColor(fog);
-      setBGColor(bg);
-      setAmbineColor(amb);
-    });
-  }, []);
-
-  return (
-    <>
-      <ambientLight color={ambinet} />
-      <Background color={bgColor} />
-      <Fog color={new Color(fogColor)} near={0} far={20} />
-    </>
-  );
+  return <group></group>;
 }
 
 export const box = (relay) => {
@@ -49,21 +39,19 @@ export const box = (relay) => {
     href: "/",
     Component: () => {
       return (
-        <div className="h-full w-full">
-          <StandardEnvironment>
-            {/* <Background color={bgColor} />
-            <Fog color={new Color(fogColor)} near={0} far={20} /> */}
-
-            <EnvColor relay={relay}></EnvColor>
-
-            <InputReceivers relay={relay}></InputReceivers>
-
-            <mesh rotation-x={-Math.PI / 2}>
-              <planeBufferGeometry args={[200, 200]} />
-              <meshStandardMaterial color="#ffa7a7" />
-            </mesh>
-          </StandardEnvironment>
-        </div>
+        <Canvas
+          colorManagement={true}
+          pixelRatio={window.devicePixelRatio || 1.0}
+          camera={{ position: [0, 0, -150] }}
+          onCreated={({ gl }) => {
+            gl.outputEncoding = sRGBEncoding;
+          }}
+        >
+          <BgEnv></BgEnv>
+          <InputObject3D relay={relay}></InputObject3D>
+          <OrbitControls />
+          <ambientLight intensity={1.0} />
+        </Canvas>
       );
     },
   });
